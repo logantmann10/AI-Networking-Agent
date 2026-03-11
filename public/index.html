@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phi Chi Theta Alumni Search</title>
+  <link rel="icon" type="image/jpeg" href="/pct-logo-cropped.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="container">
+      <div class="brand-header">
+        <img src="/pct-logo-cropped.png" alt="Phi Chi Theta Zeta Nu Logo" class="brand-logo" />
+        <div class="brand-text">
+          <h1>Phi Chi Theta Alumni Search</h1>
+          <p class="subtitle">
+            Search alumni by name, employer, city, role, pledge class, or graduation year.
+          </p>
+        </div>
+      </div>
+
+      <div class="search-box">
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="Try: find me someone in private equity..."
+        />
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <div class="example-row">
+        <span class="example-label">Try:</span>
+
+        <button class="example-chip">people working at Deloitte</button>
+
+        <button class="example-chip">alumni in Chicago</button>
+
+        <button class="example-chip">consulting alumni</button>
+
+        <button class="example-chip">Alpha pledge class</button>
+
+        <button class="example-chip">class of 2018</button>
+
+        <button class="example-chip">people in finance</button>
+
+</div>
+
+      <div id="status" class="status"></div>
+      <div id="results" class="results"></div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
